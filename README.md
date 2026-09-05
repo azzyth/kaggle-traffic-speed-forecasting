@@ -1,5 +1,5 @@
 # Traffic Speed Forecasting   Kaggle Datathon
-# Yea this is my first kaggle competition everybody... someone gotta start somewhere right (¬`‸´¬)
+Yea this is my first kaggle competition everybody... someone gotta start somewhere right (¬`‸´¬)
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
