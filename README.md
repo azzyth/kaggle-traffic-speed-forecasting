@@ -6,6 +6,7 @@ Yea this is my first kaggle competition everybody... someone gotta start somewhe
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+competition link: https://www.kaggle.com/competitions/datathon-task-1/leaderboard
 Forecasting **future traffic speed** (km/h) for 1,260 connected road segments, 20 / 40 / 60 minutes ahead, by combining **time-series speed history**, **natural-language event descriptions**, and a **road-network adjacency matrix**.
 
 > **Result:** 234th out of 276 teams · Team **TelyuAlgo**
