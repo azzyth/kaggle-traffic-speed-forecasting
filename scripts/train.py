@@ -1,12 +1,14 @@
 import json
 import numpy as np
 import pandas as pd
+import os
 from pathlib import Path
 
 # ---------------------------------------------------------------------------
 # Konfigurasi path
 # ---------------------------------------------------------------------------
-DATA_DIR = Path(r"D:\coding stuff\pandasenv\kaggle\train")
+DATA_DIR = Path(os.environ.get("TRAFFIC_DATA_DIR",
+                               Path(__file__).resolve().parent.parent / "data" / "train"))
 STATIC_DIR = DATA_DIR / "static"
 
 FILES = {

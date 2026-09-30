@@ -1,7 +1,11 @@
 import numpy as np
 import pandas as pd
+import os
+from pathlib import Path
 
-data = np.load(r'D:\coding stuff\pandasenv\kaggle\train\test\test_X_hist.npy')
+TRAIN_DIR = Path(os.environ.get("TRAFFIC_DATA_DIR",
+                                Path(__file__).resolve().parent.parent / "data" / "train"))
+data = np.load(TRAIN_DIR / "test" / "test_X_hist.npy")
 
 # Reshape: Menggabungkan (15, 1260) menjadi 18900
 data_reshaped = data.reshape(data.shape[0], -1) 
